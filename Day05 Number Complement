@@ -1,0 +1,10 @@
+class Solution(object):
+    def findComplement(self, num):
+        """
+        :type num: int
+        :rtype: int
+        """
+        t = 1
+        while num > t:
+            t = 2*t+1
+        return num^t
