@@ -5,3 +5,4 @@
 4. Recusion (helper function exit cases return + recusion; initiate inputs + temp{} or existing arrays)
 5. Count for votes
 6. "".join(strings).lstrip('0') or '0'
+7. Dynamic append and pop.()
