@@ -2,5 +2,6 @@
 1. Counter, dict
 2. Bit-wise, binary representation
 3. Binary Tree Search
-4. Recusion (helper function exit cases return + recusion; initiate inputs + temp{})
+4. Recusion (helper function exit cases return + recusion; initiate inputs + temp{} or existing arrays)
 5. Count for votes
+6. "".join(strings).lstrip('0') or '0'
