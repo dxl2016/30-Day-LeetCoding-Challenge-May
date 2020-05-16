@@ -1,0 +1,24 @@
+class Solution(object):
+    def maxSubarraySumCircular(self, A):
+        """
+        :type A: List[int]
+        :rtype: int
+        """
+        if len(A) == 0:
+            return 0
+        curr_max, curr_min, tot_max, tot_min, sum0, = A[0], A[0], A[0], A[0], A[0]
+        for i in A[1:]:
+            curr_max = max(i, i+curr_max)
+            tot_max = max(curr_max, tot_max)
+            
+            curr_min = min(i, i+curr_min)
+            tot_min = min(curr_min, tot_min)
+            
+            sum0 += i
+        
+        if sum0 == tot_min:
+            return tot_max
+        else:
+            return max(tot_max, sum0-tot_min)
+            
+           
