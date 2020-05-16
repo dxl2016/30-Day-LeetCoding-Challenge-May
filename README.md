@@ -8,3 +8,4 @@
 7. Dynamic append and pop.()
 8. all(v >= 0 for v in a.itervalues())
 9. Trie (prefix tree)
+10. Kadane's algorithm, cusum max/min
