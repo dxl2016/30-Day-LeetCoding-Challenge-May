@@ -9,3 +9,4 @@
 8. all(v >= 0 for v in a.itervalues())
 9. Trie (prefix tree)
 10. Kadane's algorithm, cusum max/min
+11. Linked list
