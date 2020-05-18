@@ -1,0 +1,27 @@
+class Solution(object):
+    def findAnagrams(self, s, p):
+        """
+        :type s: str
+        :type p: str
+        :rtype: List[int]
+        """
+        results = []
+        dict_temp = {i:0 for i in range(0, 26)}
+        rolling_temp = {i:0 for i in range(0, 26)}
+        for i in p:
+            dict_temp[ord(i)-ord('a')] += 1
+        n_p = len(p)
+        for i in s[:n_p]:
+            rolling_temp[ord(i)-ord('a')] += 1
+        if rolling_temp == dict_temp:
+            results.append(0)
+        l, r = 0, n_p
+        while(r<len(s)):
+            rolling_temp[ord(s[l])-ord('a')] -= 1
+            rolling_temp[ord(s[r])-ord('a')] += 1
+            if rolling_temp == dict_temp:
+                results.append(l+1)
+            l += 1
+            r += 1
+        return results
+            
