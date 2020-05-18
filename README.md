@@ -10,3 +10,4 @@
 9. Trie (prefix tree)
 10. Kadane's algorithm, curr_max, curr_min, tot_max, tot_min
 11. Linked list
+12. 26-character dict + rolling counter (hash)
