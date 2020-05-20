@@ -1,0 +1,32 @@
+# Definition for a binary tree node.
+# class TreeNode(object):
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution(object):
+    def kthSmallest(self, root, k):
+        """
+        :type root: TreeNode
+        :type k: int
+        :rtype: int
+        """
+        result = []
+        def inorderTraversal(curr_node):
+            temp = []
+            while(temp or curr_node):
+                if curr_node:
+                    temp.append(curr_node)
+                    curr_node = curr_node.left
+                else:
+                    t = temp.pop()
+                    result.append(t.val)
+                    if t.right:
+                        curr_node = t.right
+    
+        if not root:
+            return root
+        
+        inorderTraversal(root)
+        return result[k-1]
+    
