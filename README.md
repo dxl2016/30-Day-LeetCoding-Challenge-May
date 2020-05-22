@@ -13,3 +13,5 @@
 12. 26-character dict + rolling counter (hash)
 13. append((key, val))
 14. BST + InOrderTraversal = sorted array
+15. sorted(temp.items(), reverse = True, key = lambda x: x[1])
+16. string += sub_string*freq
