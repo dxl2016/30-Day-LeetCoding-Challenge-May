@@ -18,4 +18,4 @@
 17. string += sub_string*freq
 18. {u:i for i, u in enumerate(vocab)}
 19. dict.get() for not-existing pairs
-20. two pointers + while loop
+20. Two pointers + while loop
