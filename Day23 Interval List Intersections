@@ -1,0 +1,25 @@
+class Solution(object):
+    def intervalIntersection(self, A, B):
+        """
+        :type A: List[List[int]]
+        :type B: List[List[int]]
+        :rtype: List[List[int]]
+        """
+        if not A or not B:
+            return
+        i, j = 0, 0
+        n1, n2 = len(A), len(B)
+        result = []
+        while(i<n1 and j<n2):
+            a_s, a_e, b_s, b_e = A[i][0], A[i][1], B[j][0], B[j][1]
+            x = max(a_s, b_s)
+            y = min(a_e, b_e)
+            if x <= y:
+                result.append([x, y])
+            if y == a_e:
+                i += 1
+            else:
+                j += 1
+        return result 
+            
+            
