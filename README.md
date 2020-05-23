@@ -19,3 +19,4 @@
 18. {u:i for i, u in enumerate(vocab)}
 19. dict.get() for not-existing pairs
 20. Two pointers + while loop
+21. idx2char, char2idx, ord()
