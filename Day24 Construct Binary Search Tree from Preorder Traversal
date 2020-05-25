@@ -1,0 +1,40 @@
+# Definition for a binary tree node.
+# class TreeNode(object):
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution(object):    
+    def bstFromPreorder(self, preorder):
+        """
+        :type preorder: List[int]
+        :rtype: TreeNode
+        """
+        def is_full(curr_node):
+            if curr_node.left is not None and curr_node.right is not None:
+                return True
+            return False
+        
+        if not preorder:
+            return
+        i, n = 1, len(preorder)
+        curr_node = root = TreeNode(preorder[0])
+        temp = []
+        while(i<n):
+            if preorder[i] < curr_node.val:
+                curr_node.left = TreeNode(preorder[i])
+                temp.append(curr_node)
+                curr_node = curr_node.left         
+                i += 1
+            else:
+                while temp and preorder[i] > temp[-1].val:
+                    curr_node = temp.pop()
+                curr_node.right = TreeNode(preorder[i])
+                curr_node = curr_node.right
+                i += 1
+        return root
+  
+
+
+
+
