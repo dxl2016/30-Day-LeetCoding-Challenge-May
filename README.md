@@ -2,12 +2,12 @@
 1. Counter, dict, hash
 2. Bit-wise, binary representation; operations (XOR, OR, AND), shifts, etc.
 3. Binary Tree Search
-  * a dummy root, return root.left
-  * curr_node = root = TreeNode(ini_val), return root, curr_node as a pointer to traverse BST
-  * traverse: connect + append temp [] + move pointer
-  * left tree: append; 
-  * right tree: finish/close traverse, while temp.pop() to implement left --> right
-  * is_full(), is_leaf(), get_hight()
+    * a dummy root, return root.left
+    * curr_node = root = TreeNode(ini_val), return root, curr_node as a pointer to traverse BST
+    * traverse: connect + append temp [] + move pointer
+    * left tree: append; 
+    * right tree: finish/close traverse, while temp.pop() to implement left --> right
+    * is_full(), is_leaf(), get_hight()
 4. Recursion (helper function exit cases return + recursion; initiate inputs + temp{} or existing arrays)
 5. Count for votes +=, -=
 6. "".join(strings).lstrip('0') or '0'
@@ -25,5 +25,8 @@
 18. {u:i for i, u in enumerate(vocab)}
 19. dict.get()+1 for not-existing pairs
 20. Two pointers + while loop
+    * sum+= sum-=
+    * accu_sum is non-decreasing
+    * check diff = target - accu_sum is in temp [] or {}, back track index i
 21. idx2char, char2idx, ord()
 22. LCS, BST + a dummy start, 2D-DP
