@@ -22,11 +22,12 @@
 15. 2D-DP dynamic counters
 16. sorted(temp.items(), reverse = True, key = lambda x: x[1])
 17. string += sub_string * freq
-18. {u:i for i, u in enumerate(vocab)}
+18. {u:i for i, u in enumerate(vocab)}, vocab.items()
 19. dict.get()+1 for not-existing pairs
 20. Two pointers + while loop
     * sum+= sum-=
     * accu_sum is non-decreasing
     * check diff = target - accu_sum is in temp [] or {}, back track index i
+    * **a contiguous subarray**
 21. idx2char, char2idx, ord()
 22. LCS, BST + a dummy start, 2D-DP
