@@ -1,4 +1,6 @@
 # 30-Day-LeetCoding-Challenge-May
+### data structure: stack, queue, deque, tuple, dict, hash
+### graph
 1. Counter, dict, hash
 2. Bit-wise, binary representation; operations (XOR, OR, AND), shifts, etc.
 3. Binary Tree Search
@@ -33,3 +35,5 @@
     * max/min(curr_max/curr_min, a iterable item)
 21. idx2char, char2idx, ord()
 22. LCS, BST + a dummy start, 2D-DP
+23. BFS/DFS
+
