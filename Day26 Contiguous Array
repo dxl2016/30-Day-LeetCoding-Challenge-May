@@ -1,0 +1,29 @@
+class Solution(object):
+    def findMaxLength(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        if not nums:
+            return 0
+        n = len(nums)
+        result = {0:[-1]}
+        accu_sum = 0
+        for i in range(0, n):
+            if nums[i] == 1:
+                accu_sum += 1
+            else:
+                accu_sum -= 1
+            try:
+                result[accu_sum] += [i]
+            except:
+                result[accu_sum] = [i]
+        curr_max = 0
+        if result:
+            for _, val in result.items():
+                curr_max = max(curr_max, max(val) - min(val))
+        return curr_max
+    
+    
+    
+    
