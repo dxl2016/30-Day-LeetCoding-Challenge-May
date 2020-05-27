@@ -30,5 +30,6 @@
     * check diff = target - accu_sum is in temp [] or {}, back track index i
     * **a contiguous subarray**
     * a dummy start, hash {-1:0} or {-1:[0]}
+    * max/min(curr_max/curr_min, a iterable item)
 21. idx2char, char2idx, ord()
 22. LCS, BST + a dummy start, 2D-DP
