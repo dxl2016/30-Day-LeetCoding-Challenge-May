@@ -1,0 +1,18 @@
+class Solution(object):
+    def countBits(self, num):
+        """
+        :type num: int
+        :rtype: List[int]
+        """
+        dp = [0]*(num+1)
+        i = 0
+        s = 2 ** i
+        while(s<=num):
+            # s, e = 1<<pow, 1<<(pow + 1)
+            e = s * 2
+            for j in range(s, min(e, num+1)):
+                dp[j] = dp[j-s]+1
+                
+            i+=1
+            s = 2 ** i
+        return dp
