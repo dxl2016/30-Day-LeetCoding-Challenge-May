@@ -1,5 +1,5 @@
 # 30-Day-LeetCoding-Challenge-May
-### data structure: stack, queue, deque, tuple, dict, hash
+### data structure: stack, queue, deque, tuple, dict, hash, set
 ### graph
 1. Counter, dict, hash
 2. Bit-wise, binary representation; operations (XOR, OR, AND), shifts, etc.
