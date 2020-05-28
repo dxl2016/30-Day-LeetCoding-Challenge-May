@@ -3,7 +3,12 @@
 ### @lru_cache(maxsize=None)
 ### graph
 1. Counter, dict, hash
-2. Bit-wise, binary representation; operations (XOR, OR, AND), shifts, etc.
+2. Bit-wise
+    * binary representation and manipulation
+    * operations (XOR, OR, AND)
+    * shifts*2, 1<<pow, 1<<(pow+1)
+    * shifts/2, pow>>1, (pow+1)>>1
+    * rule: sticking 1s from bottom to top, bit[j] vs bit[j-nth-power] has an additional leading 1
 3. Binary Tree Search
     * a dummy root, return root.left
     * curr_node = root = TreeNode(ini_val), return root, curr_node as a pointer to traverse BST
@@ -36,5 +41,5 @@
     * curr_max/curr_min = max/min(curr_max/curr_min, a iterable item)
 21. idx2char, char2idx, ord()
 22. LCS, BST + a dummy start, 2D-DP
-23. BFS/DFS: bfs queue dfs stack
+23. BFS/DFS: bfs queue; dfs stack
 
