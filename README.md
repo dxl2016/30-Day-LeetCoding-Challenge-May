@@ -35,5 +35,5 @@
     * max/min(curr_max/curr_min, a iterable item)
 21. idx2char, char2idx, ord()
 22. LCS, BST + a dummy start, 2D-DP
-23. BFS/DFS
+23. BFS/DFS: bfs queue dfs stack
 
