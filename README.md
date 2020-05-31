@@ -47,6 +47,7 @@
 25. result = set(); result.add(int(s[i:i+k], 2)) **check len(result)**
 26. palindromic, check odd/even lengths
 27. any(), all()
+28. list.pop(0)
 
 
 
