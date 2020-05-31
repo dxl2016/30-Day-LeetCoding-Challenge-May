@@ -43,8 +43,10 @@
 22. LCS, BST + a dummy start, 2D-DP
 23. BFS/DFS: bfs queue; dfs stack
 24. DAG, DFS, SCC, topological sort, stack
-    *
+    * ex: **Course Schedule**: DFS/BFS, DP
 25. result = set(); result.add(int(s[i:i+k], 2)) **check len(result)**
+26. palindromic, check odd/even lengths
+27. any(), all()
 
 
 
