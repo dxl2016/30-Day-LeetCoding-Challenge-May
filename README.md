@@ -17,6 +17,11 @@
    * right tree: finish/close traverse, while temp.pop() to implement left --> right
    * is_full(), is_leaf(), get_hight()
 4. Recursion (helper function exit cases return + recursion; initiate inputs + temp{} or existing arrays)
+   * ex: **tree recusion**
+   * if parent-children connections, parametrize [] or accu_counters as recursion inputs, else define as a global_variable
+   * **nonlocal global_variable**
+   * self.global_variable
+   * check if the sub-tree can skip the root or not
 5. Count for votes +=, -=
 6. "".join(strings).lstrip('0') or '0'
 7. Dynamic append, pop.() and cum-counter++
@@ -54,6 +59,7 @@
 28. list.pop(0)
 29. heap: heaps O(n log k)
     * heapq.nsmallest(K, points, lambda (x, y): func), faster than sort
+30. 2D binary matrix filled with 0's and 1's: DP + accu_counters
 
 
 
