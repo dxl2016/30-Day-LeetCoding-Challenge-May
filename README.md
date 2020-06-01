@@ -44,6 +44,8 @@
 23. BFS/DFS: bfs queue; dfs stack
 24. DAG, DFS, SCC, topological sort, stack
     * ex: **Course Schedule**: DFS/BFS, DP
+      a. collections.defaultdict(list), set(), [course and all paired nxt]
+      b. 
 25. result = set(); result.add(int(s[i:i+k], 2)) **check len(result)**
 26. palindromic, check odd/even lengths
 27. any(), all()
