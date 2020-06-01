@@ -43,9 +43,11 @@
 22. LCS, BST + a dummy start, 2D-DP
 23. BFS/DFS: bfs queue; dfs stack
 24. DAG, DFS, SCC, topological sort, stack
-    * ex: **Course Schedule**: DFS/BFS, DP
-      a. collections.defaultdict(list), set(), [course and all paired nxt]
-      b. 
+    * ex: **Course Schedule**
+    * graph: collections.defaultdict(list), [course and all paired nxt] (including []), or dict{}
+    * for each course, visited = set()
+    * while + stack.pop(), DFS/BFS, DP
+    * # ignore the first start curr_node
 25. result = set(); result.add(int(s[i:i+k], 2)) **check len(result)**
 26. palindromic, check odd/even lengths
 27. any(), all()
