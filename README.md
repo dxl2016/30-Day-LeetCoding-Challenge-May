@@ -17,7 +17,7 @@
    * right tree: finish/close traverse, while temp.pop() to implement left --> right
    * is_full(), is_leaf(), get_hight()
 4. Recursion (helper function exit cases return + recursion; initiate inputs + temp{} or existing arrays)
-   * ex: **tree recusion**
+   * ex: **tree recursion**
    * if parent-children connections, parametrize [] or accu_counters as recursion inputs, else define as a global_variable
    * **nonlocal global_variable**
    * self.global_variable
