@@ -70,6 +70,14 @@
 32. result = result % (10^9+7)
 33. **greedy search**
     * sort by diff i-j
+34. list.pop(index) vs list.remove(value)
+35. subset problems: utilize set A.issubset(B)
+
+
+
+
+
+
 
 
 
