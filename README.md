@@ -68,4 +68,8 @@
 30. 2D binary matrix filled with 0's and 1's: DP + accu_counters
 31. queue.popleft()
 32. result = result % (10^9+7)
+33. **greedy search**
+    * sort by diff i-j
+
+
 
