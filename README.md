@@ -27,6 +27,7 @@
    * instance variable self.ans += 1 OR not_valid_roads = set()
    * dfs(node, target)
    * start with nodes connected to target node_0
+   * **undirected graph <---> directed graph**
 5. Count for votes +=, -=
 6. "".join(strings).lstrip('0') or '0'
 7. Dynamic append, pop.() and cum-counter++
