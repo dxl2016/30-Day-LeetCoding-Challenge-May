@@ -22,6 +22,11 @@
    * **nonlocal global_variable**
    * self.global_variable
    * check if the sub-tree can skip the root or not
+   * ex: **routes connections**
+   * graph, valid_roads = set(), visited = [False] * n
+   * instance variable self.ans += 1 OR not_valid_roads = set()
+   * dfs(node, target)
+   * start with nodes connected to target node_0
 5. Count for votes +=, -=
 6. "".join(strings).lstrip('0') or '0'
 7. Dynamic append, pop.() and cum-counter++
