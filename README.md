@@ -28,6 +28,8 @@
    * dfs(node, target)
    * start with nodes connected to target node_0
    * **undirected graph <---> directed graph**
+   * **bottom-up tree recursion**
+   * dfs(root, root.left) + dfs(root, root.right), **recursion first**
 5. Count for votes +=, -=
 6. "".join(strings).lstrip('0') or '0'
 7. Dynamic append, pop.() and cum-counter++
