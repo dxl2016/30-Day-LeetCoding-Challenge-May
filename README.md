@@ -32,7 +32,7 @@
    * is_full(), is_leaf(), get_hight()
    * BST + InOrderTraversal = sorted array
    * BFS/DFS: bfs queue; dfs stack
-5. Recursion 
+5. recursion 
    * helper function exit cases return + recursion; initiate inputs + temp{} or existing arrays
    * **ex: tree recursion**
    * if parent-children connections, parametrize [] or accu_counters as recursion inputs, else define as a global_variable
