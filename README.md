@@ -1,6 +1,6 @@
 # 30-Day-LeetCoding-Challenge-May
 ### @lru_cache(maxsize=None)
-### result = result % (10^9+7)**
+### result = result % (10^9+7)
 1. data structure: stack, queue, deque, tuple, dict, hash, set, heap
    * list.pop(0)
    * queue.popleft()
