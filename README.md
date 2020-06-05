@@ -29,7 +29,7 @@
    * start with nodes connected to target node_0
    * **undirected graph <---> directed graph**
    * **bottom-up tree recursion**
-   * dfs(root, root.left) + dfs(root, root.right), **recursion first**
+   * **l_ans = dfs(node.left), r_ans = dfs(node.right), return variable (can be a num)**
    * **return variable (can be bool) is defined in dfs(node)**
 5. Count for votes +=, -=
 6. "".join(strings).lstrip('0') or '0'
