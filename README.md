@@ -65,7 +65,7 @@
 26. palindromic, check odd/even lengths
 27. any(), all()
     * self_or_children_apple |= any(dfs(children) for children in graph[node])
-    * **once any() returns True and no longer continuously explores other nodes anymore**
+    * **once any() returns True and no longer subsequently explores other nodes anymore**
     * **to check all children, use for loop + dfs(), if + self.ans++**
 28. list.pop(0)
 29. heap: heaps O(n log k)
