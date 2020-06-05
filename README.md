@@ -16,7 +16,7 @@
 2. collections.Counter (freq), dict, hash, heap, set 
    * collections.default(list)
    * [[] for _ in range(n)]
-   * ex: graph
+   * ex: Graph
 3. Bit-wise
    * binary representation and manipulation
    * operations (XOR, OR, AND)
@@ -34,12 +34,12 @@
    * BFS/DFS: bfs queue; dfs stack
 5. recursion 
    * helper function exit cases return + recursion; initiate inputs + temp{} or existing arrays
-   * **ex: tree recursion**
+   * **ex: Tree Recursion**
    * if parent-children connections, parametrize [] or accu_counters as recursion inputs, else define as a global_variable
    * **nonlocal global_variable**
    * instance variable such as self.global_variable
    * check if the sub-tree can skip the root or not
-   * **ex: routes connections**
+   * **ex: Routes Connections**
    * graph, valid_roads = set(), visited = [False] * n
    * instance variable self.ans += 1 OR not_valid_roads = set()
    * dfs(node, target)
@@ -66,34 +66,38 @@
 10. **greedy search**
    * sort is the KEY
    * sort by diff i-j
-11. various scanning/sliding windows problems
+11. various scanning/sliding windows problems (min, max, diff, accu_sum, length)
+   * local_min, local_max grid search
    * count for votes +=, -=
    * dynamic append, pop.() and cum-counter++
    * two pointers (l, r) + while loop(s)
    * sum+=, sum-=
    * accu_sum is non-decreasing
    * check diff = target - accu_sum is in temp [] or {}, back track index i
-   * **ex: a contiguous subarray**
+   * **ex: A Contiguous Subarray**
    * **a dummy start, hash {-1:0} or {-1:[0]}**
    * curr_max/curr_min = max/min(curr_max/curr_min, a iterable item)
    * Kadane's algorithm, curr_max, curr_min, tot_max, tot_min, accu_sum rolling
    * **local_max <---> local_min**
    * 26-character dict + rolling counter (hash)
 12. some classic problems
+   * recursion + exit + temp = [] dynamic append, or self.ans += 1
+   * rolling prefix-dict count++
    * LCS, BST + a dummy start, 2D-DP
    * Trie (prefix tree)
    * palindromic, check odd/even lengths
    * subset problems: utilize set A.issubset(B)
    * result = set(); result.add(int(s[i:i+k], 2)) **check len(result)**
 13. any(), all()
-   * self_or_children_apple |= any(dfs(children) for children in graph[node])
    * **once any() returns True and no longer subsequently explores other nodes anymore**
    * **to check all children, use for loop + dfs(), if + self.ans++**
-
-
-
-
-
+14. DFS (dfs, instance variable, return)
+   * top-bottom search: dfs(node) + self.ans + list/set/dict append/add/+=
+   * self_or_children_apple |= any(dfs(children) for children in graph[node]
+   * **l_ans = dfs(node.left), r_ans = dfs(node.right), return variable (can be a num)**
+   * **return variable (can be bool/num) is defined in dfs(node)**
+   * dfs(node) + return + self.ans + accum |=
+   * visited = set()
 
 
 
