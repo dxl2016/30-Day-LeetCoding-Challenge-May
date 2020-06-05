@@ -64,12 +64,15 @@
 25. result = set(); result.add(int(s[i:i+k], 2)) **check len(result)**
 26. palindromic, check odd/even lengths
 27. any(), all()
+    * self_or_children_apple |= any(dfs(children) for children in graph[node])
+    * **once any() returns True and no longer continuously explores other nodes anymore**
+    * **to check all children, use for loop + dfs(), if + self.ans++**
 28. list.pop(0)
 29. heap: heaps O(n log k)
     * heapq.nsmallest(K, points, lambda (x, y): func), faster than sort
 30. 2D binary matrix filled with 0's and 1's: DP + accu_counters
 31. queue.popleft()
-32. result = result % (10^9+7)
+32. **result = result % (10^9+7)**
 33. **greedy search**
     * sort by diff i-j
 34. list.pop(index) vs list.remove(value)
