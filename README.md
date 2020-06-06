@@ -1,6 +1,8 @@
 # 30-Day-LeetCoding-Challenge-May
 ### @lru_cache(maxsize=None)
 ### result = result % (10^9+7)
+### TLE: DP ---> scanning/sliding windows (max to min)
+### TLE: list ---> hash (dict)
 1. data structure: stack, queue, deque, tuple, dict, hash, set, heap
    * list.pop(0)
    * queue.popleft()
@@ -13,6 +15,7 @@
    * {u:i for i, u in enumerate(vocab)}, vocab.items()
    * dict.get()+1 for not-existing pairs
    * all(v >= 0 for v in a.itervalues())
+   * reverse: [::-1]
 2. collections.Counter (freq), dict, hash, heap, set 
    * collections.default(list)
    * [[] for _ in range(n)]
@@ -66,7 +69,8 @@
 10. **greedy search**
    * sort is the KEY
    * sort by diff i-j
-11. various scanning/sliding windows problems (min, max, diff, accu_sum, length)
+11. various scanning/sliding windows problems **[max ---> min]** (min, max, diff, accu_sum, length)
+   * **sliding windows** one-pass calc is faster than slicing the array
    * local_min, local_max grid search
    * count for votes +=, -=
    * dynamic append, pop.() and cum-counter++
