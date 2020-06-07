@@ -61,6 +61,7 @@
    * string += sub_string * freq
    * idx2char, char2idx, ord()
 8. linked list
+   * memory
    * self.head = Node()
    class Node(object):
     def __init__(self, val=0):
