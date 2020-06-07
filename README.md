@@ -5,7 +5,9 @@
 ### TLE: list ---> hash (dict), store min, max, diff, abs, etc.
 ### TLE: unique: length is important, creat a dict/hash based on uniqueness
 1. data structure: stack, queue, deque, tuple, dict, hash, set, heap
+   * **lambda sort: list_of_list = sorted(list_of_list, key = lambda x: (-x[0], x[1]))**
    * collections.deque([]), append(), pop(), appendleft(), popleft()
+   * list.insert(pos, elements)
    * map(lambda x: x+1, list)
    * list.pop(0)
    * queue.popleft()
