@@ -4,6 +4,7 @@
 ### TLE: DP ---> scanning/sliding windows (max to min)
 ### TLE: list ---> hash (dict), store min, max, diff, abs, etc.
 1. data structure: stack, queue, deque, tuple, dict, hash, set, heap
+   * collections.deque([]), append(), pop(), appendleft(), popleft()
    * list.pop(0)
    * queue.popleft()
    * list.append( (key, val) )
@@ -60,6 +61,12 @@
    * string += sub_string * freq
    * idx2char, char2idx, ord()
 8. linked list
+   * self.head = Node()
+   class Node(object):
+    def __init__(self, val=0):
+        self.val = val
+        self.next = None
+        self.prev = None
 9. traverse
    * DAG, DFS, SCC, topological sort, stack
    * **ex: Course Schedule**
