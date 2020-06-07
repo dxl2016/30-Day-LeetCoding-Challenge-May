@@ -2,7 +2,7 @@
 ### @lru_cache(maxsize=None)
 ### result = result % (10^9+7)
 ### TLE: DP ---> scanning/sliding windows (max to min)
-### TLE: list ---> hash (dict)
+### TLE: list ---> hash (dict), store min, max, diff, abs, etc.
 1. data structure: stack, queue, deque, tuple, dict, hash, set, heap
    * list.pop(0)
    * queue.popleft()
