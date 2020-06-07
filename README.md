@@ -1,7 +1,7 @@
 # 30-Day-LeetCoding-Challenge-May
 ### @lru_cache(maxsize=None)
 ### result = result % (10^9+7)
-### TLE: DP ---> scanning/sliding windows (max to min)
+### TLE: DP ---> scanning/sliding windows (max to min)/while + (l, r) two pointers
 ### TLE: list ---> hash (dict), store min, max, diff, abs, etc.
 1. data structure: stack, queue, deque, tuple, dict, hash, set, heap
    * collections.deque([]), append(), pop(), appendleft(), popleft()
