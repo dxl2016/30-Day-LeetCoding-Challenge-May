@@ -3,8 +3,10 @@
 ### result = result % (10^9+7)
 ### TLE: DP ---> scanning/sliding windows (max to min)/while + (l, r) two pointers
 ### TLE: list ---> hash (dict), store min, max, diff, abs, etc.
+### TLE: unique: length is important, creat a dict/hash based on uniqueness
 1. data structure: stack, queue, deque, tuple, dict, hash, set, heap
    * collections.deque([]), append(), pop(), appendleft(), popleft()
+   * map(lambda x: x+1, list)
    * list.pop(0)
    * queue.popleft()
    * list.append( (key, val) )
