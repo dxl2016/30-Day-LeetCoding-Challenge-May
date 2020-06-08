@@ -9,6 +9,7 @@
    * collections.deque([]), append(), pop(), appendleft(), popleft()
    * list.insert(pos, elements)
    * map(lambda x: x+1, list)
+   * ''.join(filter(str.isalnum, s))
    * list.pop(0)
    * queue.popleft()
    * list.append( (key, val) )
