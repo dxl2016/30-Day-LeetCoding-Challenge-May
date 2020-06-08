@@ -28,11 +28,14 @@
 3. Bit-wise
    * binary representation and manipulation
    * operations (XOR, OR, AND)
-   * shifts*2, 1<<pow, 1<<(pow+1)
-   * shifts/2, pow>>1, (pow+1)>>1
+   * bit-wise left shift, 1<<pow, 1<<(pow+1)
+   * bit-wise right shifts, pow>>1, (pow+1)>>1
    * rule: sticking 1s from bottom to top, bit[j] vs bit[j-nth-power] has an additional leading 1
+   * power of 2 rule: return n > 0 and bin(n).count('1') == 1
+   * power of 2 rule: return n > 0 and n & (n-1) == 0
 4. BTS/tree (connected graph)
    * a dummy root, return root.left
+   * tree node swap: root.left, root.right = root.right, root.left
    * **curr_node = root = TreeNode(ini_val), return root, curr_node as a pointer to traverse BST**
    * traverse: connect + append temp [] + move pointer
    * left tree: append; 
@@ -78,9 +81,10 @@
    * for each course, visited = set()
    * while + stack.pop(), DFS/BFS, DP
    * **ignore the first start curr_node**
-10. **greedy search**
+10. **greedy search and sort**
    * sort is the KEY
    * sort by diff i-j
+   * knapsack
 11. various scanning/sliding windows problems **[max ---> min]** (min, max, diff, accu_sum, length)
    * **sliding windows** one-pass calc is faster than slicing the array
    * local_min, local_max grid search
