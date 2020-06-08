@@ -119,8 +119,17 @@
    * **return variable (can be bool/num) is defined in dfs(node)**
    * dfs(node) + return + self.ans + accum |=
    * visited = set()
-
-
+15: **palindromic strings: sub-strings/sub-sequences**
+   * un-ordered: hash/dict, check odd/even lengths
+   * (l, r) two pointers scanning/sliding windows
+   * DP
+   * recur, divide and conquer
+   
+   
+   
+   
+   
+   
 
 
 
