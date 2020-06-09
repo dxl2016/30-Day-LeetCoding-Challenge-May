@@ -61,6 +61,7 @@
    * **l_ans = dfs(node.left), r_ans = dfs(node.right), return variable (can be a num)**
    * **return variable (can be bool/num) is defined in dfs(node)**
 6. DP
+   * **base cases check**
    * 2D-DP dynamic counters (top left - bottom right update/search)
    * 2D binary matrix filled with 0's and 1's: DP + accu_counters
 7. strings
@@ -122,6 +123,7 @@
 15. **palindromic strings: sub-strings/sub-sequences**
    * un-ordered: hash/dict, check odd/even lengths
    * (l, r) two pointers scanning/sliding windows
+   * **base cases check (all len(strings) <= 3)**, avoid next step being executed before last step has been computed
    * 2D-DP: if need, for i in range(n-1, -1, -1) for j in range(i, n) check if ss[i] == ss[j]
    * recur, divide and conquer
    
