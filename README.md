@@ -122,7 +122,7 @@
 15. **palindromic strings: sub-strings/sub-sequences**
    * un-ordered: hash/dict, check odd/even lengths
    * (l, r) two pointers scanning/sliding windows
-   * DP
+   * 2D-DP: if need, for i in range(n-1, -1, -1) for j in range(i, n) check if ss[i] == ss[j]
    * recur, divide and conquer
    
    
