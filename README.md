@@ -128,7 +128,7 @@
    * 2D-DP: if need, for i in range(n-1, -1, -1) for j in range(i, n) check if ss[i] == ss[j]
 16. **BST**  
    * recursion, divide and conquer
-   * exit + recursion + instance variable + return (may not need)
+   * exit + recursion (if or for) + instance variable + return (recursion/instance variable/may not need)
    * (node is None) is not equal to (not node) !!!
    
    
