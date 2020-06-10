@@ -4,6 +4,7 @@
 ### TLE: DP ---> scanning/sliding windows (max to min)/while + (l, r) two pointers
 ### TLE: list ---> hash (dict), store min, max, diff, abs, etc.
 ### TLE: unique: length is important, creat a dict/hash based on uniqueness
+### backtracking, recursion, divide and conquer, DP
 1. data structure: stack, queue, deque, tuple, dict, hash, set, heap
    * **lambda sort: list_of_list = sorted(list_of_list, key = lambda x: (-x[0], x[1]))**
    * collections.deque([]), append(), pop(), appendleft(), popleft()
@@ -125,9 +126,9 @@
    * (l, r) two pointers scanning/sliding windows
    * **base cases check (all len(strings) <= 3)**, avoid next step being executed before last step has been computed
    * 2D-DP: if need, for i in range(n-1, -1, -1) for j in range(i, n) check if ss[i] == ss[j]
-   
-   
-   * recur, divide and conquer, backtracking
+16. **BST**  
+   * recursion, divide and conquer
+   * exit + recursion + instance variable + return
    
    
    
