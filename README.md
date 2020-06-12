@@ -22,7 +22,8 @@
    * {u:i for i, u in enumerate(vocab)}, vocab.items()
    * dict.get()+1 for not-existing pairs
    * all(v >= 0 for v in a.itervalues())
-   * reverse: [::-1]
+   * **reverse: [::-1]**
+   * **remove dict key: my_dict.pop('key', None)**
 2. collections.Counter (freq), dict, hash, heap, set 
    * collections.default(list)
    * [[] for _ in range(n)]
