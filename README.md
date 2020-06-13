@@ -5,6 +5,7 @@
 ### TLE: list ---> hash (dict), store min, max, diff, abs, etc.
 ### TLE: unique: length is important, creat a dict/hash based on uniqueness
 ### backtracking, recursion, divide and conquer, DP
+### check overlapping: if max(left) > min(right)
 1. data structure: stack, queue, deque, tuple, dict, hash, set, heap
    * **lambda sort: list_of_list = sorted(list_of_list, key = lambda x: (-x[0], x[1]))**
    * collections.deque([]), append(), pop(), appendleft(), popleft()
@@ -112,6 +113,7 @@
    * palindromic, check odd/even lengths
    * subset problems: utilize set A.issubset(B)
    * result = set(); result.add(int(s[i:i+k], 2)) **check len(result)**
+   * Fibonacci numbers, cusum
 13. any(), all()
    * **once any() returns True and no longer subsequently explores other nodes anymore**
    * **to check all children, use for loop + dfs(), if + self.ans++**
