@@ -75,11 +75,6 @@
 8. linked list
    * memory
    * self.head = Node()
-   class Node(object):
-     def __init__(self, val=0):
-         self.val = val
-         self.next = None
-         self.prev = None
 9. traverse
    * DAG, DFS, SCC, topological sort, stack
    * **ex: Course Schedule**
@@ -131,10 +126,10 @@
    * 2D-DP: if need, for i in range(n-1, -1, -1) for j in range(i, n) check if ss[i] == ss[j]
 16. **BST/binary tree/tree/graph**  
    * recursion, divide and conquer (BST)
-     * + exit 
-     * + recursion (if or for) left/right/children, l = dfs(node.left), r = dfs(node.right)
-     * + instance variable 
-     * + return (recursion/instance variable/may not need)
+   * + exit 
+   * + recursion (if or for) left/right/children, l = dfs(node.left), r = dfs(node.right)
+   * + instance variable 
+   * + return (recursion/instance variable/may not need)
    * (node is None) is not equal to (not node) !!!
    * degree of tree to node: max(l, r)+1
    
