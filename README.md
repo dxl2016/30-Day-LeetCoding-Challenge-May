@@ -3,6 +3,7 @@
 ### result = result % (10^9+7)
 ### TLE: DP ---> scanning/sliding windows (max to min)/while + (l, r) two pointers
 ### TLE: for loop search ---> binary search
+### TLE: deque([])
 ### TLE: sort() idx and val
 ### TLE: prunning
 ### TLE: list ---> hash (dict), store min, max, diff, abs, etc.
