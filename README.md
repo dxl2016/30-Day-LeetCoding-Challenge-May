@@ -82,58 +82,59 @@
    * while + stack.pop(), DFS/BFS, DP
    * **ignore the first start curr_node**
 10. **greedy search and sort**
-   * sort is the KEY
-   * sort by diff i-j
-   * knapsack
+    * sort is the KEY
+    * sort by diff i-j
+    * knapsack
+### problem summary
 11. various scanning/sliding windows problems **[max ---> min]** (min, max, diff, accu_sum, length)
-   * **sliding windows** one-pass calc is faster than slicing the array
-   * local_min, local_max grid search
-   * count for votes +=, -=
-   * dynamic append, pop.() and cum-counter++
-   * two pointers (l, r) + while loop(s)
-   * sum+=, sum-=
-   * accu_sum is non-decreasing
-   * check diff = target - accu_sum is in temp [] or {}, back track index i
-   * **ex: A Contiguous Subarray**
-   * **a dummy start, hash {-1:0} or {-1:[0]}**
-   * curr_max/curr_min = max/min(curr_max/curr_min, a iterable item)
-   * Kadane's algorithm, curr_max, curr_min, tot_max, tot_min, accu_sum rolling
-   * **local_max <---> local_min**
-   * 26-character dict + rolling counter (hash)
+    * **sliding windows** one-pass calc is faster than slicing the array
+    * local_min, local_max grid search
+    * count for votes +=, -=
+    * dynamic append, pop.() and cum-counter++
+    * two pointers (l, r) + while loop(s)
+    * sum+=, sum-=
+    * accu_sum is non-decreasing
+    * check diff = target - accu_sum is in temp [] or {}, back track index i
+    * **ex: A Contiguous Subarray**
+    * **a dummy start, hash {-1:0} or {-1:[0]}**
+    * curr_max/curr_min = max/min(curr_max/curr_min, a iterable item)
+    * Kadane's algorithm, curr_max, curr_min, tot_max, tot_min, accu_sum rolling
+    * **local_max <---> local_min**
+    * 26-character dict + rolling counter (hash)
 12. some classic problems
-   * recursion + exit + temp = [] dynamic append, or self.ans += 1
-   * rolling prefix-dict count++
-   * LCS, BST + a dummy start, 2D-DP
-   * Trie (prefix tree)
-   * palindromic, check odd/even lengths
-   * subset problems: utilize set A.issubset(B)
-   * result = set(); result.add(int(s[i:i+k], 2)) **check len(result)**
-   * Fibonacci numbers, cusum
+    * recursion + exit + temp = [] dynamic append, or self.ans += 1
+    * rolling prefix-dict count++
+    * LCS, BST + a dummy start, 2D-DP
+    * Trie (prefix tree)
+    * palindromic, check odd/even lengths
+    * subset problems: utilize set A.issubset(B)
+    * result = set(); result.add(int(s[i:i+k], 2)) **check len(result)**
+    * Fibonacci numbers, cusum
 13. any(), all()
-   * **once any() returns True and no longer subsequently explores other nodes anymore**
-   * **to check all children, use for loop + dfs(), if + self.ans++**
+    * **once any() returns True and no longer subsequently explores other nodes anymore**
+    * **to check all children, use for loop + dfs(), if + self.ans++**
 14. DFS (dfs, instance variable, return)
-   * top-bottom search: dfs(node) + self.ans + list/set/dict append/add/+=
-   * self_or_children_apple |= any(dfs(children) for children in graph[node]
-   * **l_ans = dfs(node.left), r_ans = dfs(node.right), return variable (can be a num)**
-   * **return variable (can be bool/num) is defined in dfs(node)**
-   * dfs(node) + return + self.ans + accum |=
-   * visited = set()
+    * top-bottom search: dfs(node) + self.ans + list/set/dict append/add/+=
+    * self_or_children_apple |= any(dfs(children) for children in graph[node]
+    * **l_ans = dfs(node.left), r_ans = dfs(node.right), return variable (can be a num)**
+    * **return variable (can be bool/num) is defined in dfs(node)**
+    * dfs(node) + return + self.ans + accum |=
+    * visited = set()
 15. **palindromic strings: sub-strings/sub-sequences**
-   * un-ordered: hash/dict, check odd/even lengths
-   * (l, r) two pointers scanning/sliding windows
-   * **base cases check (all len(strings) <= 3)**, avoid next step being executed before last step has been computed
-   * 2D-DP: if need, for i in range(n-1, -1, -1) for j in range(i, n) check if ss[i] == ss[j]
-   * ex: LCS, LIS
-   * order, index, recursion relation equations, 2D-DP, base cases
+    * un-ordered: hash/dict, check odd/even lengths
+    * (l, r) two pointers scanning/sliding windows
+    * **base cases check (all len(strings) <= 3)**, avoid next step being executed before last step has been computed
+    * 2D-DP: if need, for i in range(n-1, -1, -1) for j in range(i, n) check if ss[i] == ss[j]
+    * ex: LCS, LIS
+    * order, index, recursion relation equations, 2D-DP, base cases, sorted()
 16. **BST/binary tree/tree/graph**  
-   * recursion, divide and conquer (BST)
-   * + exit 
-   * + recursion (if or for) left/right/children, l = dfs(node.left), r = dfs(node.right)
-   * + instance variable 
-   * + return (recursion/instance variable/may not need)
-   * (node is None) is not equal to (not node) !!!
-   * degree of tree to node: max(l, r)+1
+    * recursion, divide and conquer (BST)
+    * "+" exit 
+    * "+" recursion (if or for) left/right/children, l = dfs(node.left), r = dfs(node.right)
+    * "+" instance variable 
+    * "+" return (recursion/instance variable/may not need)
+    * (node is None) is not equal to (not node) !!!
+    * degree of tree to node: max(l, r)+1
    
    
    
