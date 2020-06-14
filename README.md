@@ -2,6 +2,9 @@
 ### @lru_cache(maxsize=None)
 ### result = result % (10^9+7)
 ### TLE: DP ---> scanning/sliding windows (max to min)/while + (l, r) two pointers
+### TLE: for loop search ---> binary search
+### TLE: sort() idx and val
+### TLE: prunning
 ### TLE: list ---> hash (dict), store min, max, diff, abs, etc.
 ### TLE: unique: length is important, creat a dict/hash based on uniqueness
 ### backtracking, recursion, divide and conquer, DP
