@@ -124,6 +124,8 @@
    * (l, r) two pointers scanning/sliding windows
    * **base cases check (all len(strings) <= 3)**, avoid next step being executed before last step has been computed
    * 2D-DP: if need, for i in range(n-1, -1, -1) for j in range(i, n) check if ss[i] == ss[j]
+   * ex: LCS, LIS
+   * order, index, recursion relation equations, 2D-DP, base cases
 16. **BST/binary tree/tree/graph**  
    * recursion, divide and conquer (BST)
    * + exit 
