@@ -73,6 +73,7 @@
    * **base cases check**
    * 2D-DP dynamic counters (top left - bottom right update/search)
    * 2D binary matrix filled with 0's and 1's: DP + accu_counters
+   * bottom-right to top-left vs top-left to bottom-right
 7. strings
    * "".join(strings).lstrip('0') or '0'
    * int(strings, 2)
