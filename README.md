@@ -141,7 +141,8 @@
     * "+" return (recursion/instance variable/may not need)
     * (node is None) is not equal to (not node) !!!
     * degree of tree to node: max(l, r)+1
-   
+17. permutation
+    * math.factorial()
    
    
    
