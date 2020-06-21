@@ -10,6 +10,7 @@
 ### TLE: unique: length is important, creat a dict/hash based on uniqueness
 ### backtracking, recursion, divide and conquer, DP
 ### check overlapping: if max(left) > min(right)
+### reach max depth: keep visiting visited nodes and never exit recursion, go first with the edge cases
 1. data structure: stack, queue, deque, tuple, dict, hash, set, heap
    * **lambda sort: list_of_list = sorted(list_of_list, key = lambda x: (-x[0], x[1]))**
    * collections.deque([]), append(), pop(), appendleft(), popleft()
