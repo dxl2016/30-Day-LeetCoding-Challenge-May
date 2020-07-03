@@ -47,6 +47,7 @@
    * power of 2 rule: return n > 0 and bin(n).count('1') == 1
    * power of 2 rule: return n > 0 and n & (n-1) == 0
 4. BTS/tree (connected graph)
+   * index: left = 2*level+1; right = 2*level+2
    * a dummy root, return root.left
    * tree node swap: root.left, root.right = root.right, root.left
    * **curr_node = root = TreeNode(ini_val), return root, curr_node as a pointer to traverse BST**
