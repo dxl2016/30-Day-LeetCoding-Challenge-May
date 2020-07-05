@@ -5,9 +5,9 @@
 ### TLE: for loop search ---> binary search
 ### TLE: deque([])
 ### TLE: sort() idx and val
-### TLE: prunning
+### TLE: pruning
 ### TLE: list ---> hash (dict), store min, max, diff, abs, etc.
-### TLE: unique: length is important, creat a dict/hash based on uniqueness
+### TLE: unique: length is important, create a dict/hash based on uniqueness
 ### backtracking, recursion, divide and conquer, DP
 ### check overlapping: if max(left) > min(right)
 ### reach max depth: keep visiting visited nodes and never exit recursion, go first with the edge cases
@@ -34,6 +34,7 @@
    * **remove dict key: my_dict.pop('key', None)**
    * hexadecimals has only 0–9 & A-F/a-f
    * ss.isalpha()
+   * strings.count("1")
 2. collections.Counter (freq), dict, hash, heap, set 
    * collections.default(list)
    * [[] for _ in range(n)]
