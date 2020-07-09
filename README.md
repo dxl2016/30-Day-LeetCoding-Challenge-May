@@ -35,6 +35,7 @@
    * hexadecimals has only 0–9 & A-F/a-f
    * ss.isalpha()
    * strings.count("1")
+   * sys.maxsize
 2. collections.Counter (freq), dict, hash, heap, set 
    * collections.default(list)
    * [[] for _ in range(n)]
