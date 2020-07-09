@@ -124,6 +124,7 @@
     * result = set(); result.add(int(s[i:i+k], 2)) **check len(result)**
     * Fibonacci numbers, cusum
     * **three pointers: for loop i & l = i+1 & r = len(s)-1**
+    * **Kadane's algorithm: count submatrices with all ones**
 13. any(), all()
     * **once any() returns True and no longer subsequently explores other nodes anymore**
     * **to check all children, use for loop + dfs(), if + self.ans++**
