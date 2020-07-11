@@ -153,7 +153,7 @@
 17. permutation
     * math.factorial()
     * math.comb()
-   
+    * chain.from_iterable(combinations())
    
    
    
