@@ -36,6 +36,7 @@
    * ss.isalpha()
    * strings.count("1")
    * sys.maxsize
+   * int(f'{strings:032b}'[::-1],2)
 2. collections.Counter (freq), dict, hash, heap, set 
    * collections.default(list)
    * [[] for _ in range(n)]
