@@ -37,7 +37,8 @@
    * strings.count("1")
    * sys.maxsize
    * int(f'{strings:032b}'[::-1],2)
-2. collections.Counter (freq), dict, hash, heap, set 
+2. collections.Counter(freq), dict, hash, heap, set 
+   * Counter(nums).most_common(k)
    * collections.default(list)
    * [[] for _ in range(n)]
    * ex: Graph
