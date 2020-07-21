@@ -4,13 +4,14 @@
 ### TLE: DP ---> scanning/sliding windows (max to min)/while + (l, r) two pointers
 ### TLE: for loop search ---> binary search
 ### TLE: deque([])
-### TLE: sort() idx and val
+### TLE: sort() idx and val: greedy
 ### TLE: pruning
-### TLE: list ---> hash (dict), store min, max, diff, abs, etc.
+### TLE: list ---> hash (dict)/heap, store min, max, diff, abs, etc.
 ### TLE: unique: length is important, create a dict/hash based on uniqueness
 ### backtracking, recursion, divide and conquer, DP
 ### check overlapping: if max(left) > min(right)
 ### reach max depth: keep visiting visited nodes and never exit recursion, go first with the edge cases
+
 1. data structure: stack, queue, deque, tuple, dict, hash, set, heap
    * **lambda sort: list_of_list = sorted(list_of_list, key = lambda x: (-x[0], x[1]))**
    * collections.deque([]), append(), pop(), appendleft(), popleft()
@@ -90,6 +91,7 @@
 8. linked list
    * memory
    * self.head = Node()
+   * node = curr = head; return node
 9. traverse
    * DAG, DFS, SCC, topological sort, stack
    * **ex: Course Schedule**
@@ -137,6 +139,7 @@
     * **return variable (can be bool/num) is defined in dfs(node)**
     * dfs(node) + return + self.ans + accum |=
     * visited = set()
+    * **2D-grid DFS**: dfs(i, j, idx, stack or count) + can mark "0" as visited, dfs search, and back-track "0" to the original char (static)
 15. **palindromic strings: sub-strings/sub-sequences**
     * un-ordered: hash/dict, check odd/even lengths
     * (l, r) two pointers scanning/sliding windows
