@@ -11,6 +11,7 @@
 ### backtracking, recursion, divide and conquer, DP
 ### check overlapping: if max(left) > min(right)
 ### reach max depth: keep visiting visited nodes and never exit recursion, go first with the edge cases
+### use a priorityQueue,for relaxation of edges:  djikstra's 
 
 1. data structure: stack, queue, deque, tuple, dict, hash, set, heap
    * **lambda sort: list_of_list = sorted(list_of_list, key = lambda x: (-x[0], x[1]))**
@@ -26,7 +27,7 @@
    * sorted(temp.items(), reverse = True, key = lambda x: x[1])
    * **heap: heaps O(n log k)**
    * heapq.heappush(list, item)
-   * heapq.heappop(item)
+   * heapq.heappop(list)
    * heapq.nsmallest(K, points, lambda (x, y): func), faster than sort
    * {u:i for i, u in enumerate(vocab)}, vocab.items()
    * dict.get()+1 for not-existing pairs
