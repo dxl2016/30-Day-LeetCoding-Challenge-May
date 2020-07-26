@@ -156,10 +156,12 @@
     * "+" return (recursion/instance variable/may not need)
     * (node is None) is not equal to (not node) !!!
     * degree of tree to node: max(l, r)+1
-17. permutation
+17. math/permutation
     * math.factorial()
     * math.comb()
     * chain.from_iterable(combinations())
+    * the divisibility test that an integer is divisible by 9 iff the sum of its digits is divisible by 9 (digital root)
+    
    
    
    
