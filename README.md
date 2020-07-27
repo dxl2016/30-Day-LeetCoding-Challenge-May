@@ -3,15 +3,17 @@
 ### result = result % (10^9+7)
 ### TLE: DP ---> scanning/sliding windows (max to min)/while + (l, r) two pointers
 ### TLE: for loop search ---> binary search
-### TLE: deque([])
+### TLE: deque([]), set()
 ### TLE: sort() idx and val: greedy
 ### TLE: pruning
 ### TLE: list ---> hash (dict)/heap, store min, max, diff, abs, etc.
 ### TLE: unique: length is important, create a dict/hash based on uniqueness
+### TLE: use a priorityQueue,for relaxation of edges:  djikstra's 
+### TLE: Kadane's algorithm
 ### backtracking, recursion, divide and conquer, DP
 ### check overlapping: if max(left) > min(right)
 ### reach max depth: keep visiting visited nodes and never exit recursion, go first with the edge cases
-### use a priorityQueue,for relaxation of edges:  djikstra's 
+### tree ---> directed graph (node-based instead of val-based)
 
 1. data structure: stack, queue, deque, tuple, dict, hash, set, heap
    * **lambda sort: list_of_list = sorted(list_of_list, key = lambda x: (-x[0], x[1]))**
