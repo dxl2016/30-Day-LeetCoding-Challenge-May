@@ -12,7 +12,7 @@
 ### TLE: Kadane's algorithm
 ### backtracking, recursion, divide and conquer, DP
 ### check overlapping: if max(left) > min(right)
-### reach max depth: keep visiting visited nodes and never exit recursion, go first with the edge cases
+### reach max depth: keep visiting visited nodes and never exit recursion, go first with the edge cases (can locally freeze some char and change them back)
 ### tree ---> directed graph (node-based instead of val-based) root, par=None
 ### tree (i.e. a connected, undirected graph that has no cycles)
 
