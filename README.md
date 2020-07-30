@@ -15,6 +15,7 @@
 ### reach max depth: keep visiting visited nodes and never exit recursion, go first with the edge cases (can locally freeze some char and change them back)
 ### tree ---> directed graph (node-based instead of val-based) root, par=None
 ### tree (i.e. a connected, undirected graph that has no cycles)
+### bitmask and hashmap (XOR) keywords: all char count even
 
 1. data structure: stack, queue, deque, tuple, dict, hash, set, heap
    * **lambda sort: list_of_list = sorted(list_of_list, key = lambda x: (-x[0], x[1]))**
