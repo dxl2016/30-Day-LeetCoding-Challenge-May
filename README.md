@@ -44,7 +44,6 @@
    * sys.maxsize
    * int(f'{strings:032b}'[::-1],2)
    * s = re.sub(r"[^A-Za-z0-9]", "", s)
-   * ord() and chr()
    * divisors: idx ** 0.5
 2. collections.Counter(freq), dict, hash, heap, set 
    * Counter(nums).most_common(k)
@@ -95,7 +94,8 @@
    * "".join(strings).lstrip('0') or '0'
    * int(strings, 2)
    * string += sub_string * freq
-   * idx2char, char2idx, ord()
+   * idx2char, char2idx, ord(), chr()
+   * s.startswith()
 8. linked list
    * memory
    * self.head = Node()
