@@ -39,12 +39,11 @@
    * **reverse: [::-1]**
    * **remove dict key: my_dict.pop('key', None)**
    * hexadecimals has only 0–9 & A-F/a-f
-   * ss.isalpha()
-   * strings.count("1")
    * sys.maxsize
    * int(f'{strings:032b}'[::-1],2)
    * s = re.sub(r"[^A-Za-z0-9]", "", s)
    * divisors: idx ** 0.5
+   * datetime.strptime(date, "%Y-%m-%d")
 2. collections.Counter(freq), dict, hash, heap, set 
    * Counter(nums).most_common(k)
    * collections.default(list)
@@ -96,6 +95,8 @@
    * string += sub_string * freq
    * idx2char, char2idx, ord(), chr()
    * s.startswith()
+   * ss.isalpha()
+   * strings.count("1")
 8. linked list
    * memory
    * self.head = Node()
