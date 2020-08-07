@@ -168,6 +168,7 @@
 17. math/permutation
     * math.factorial()
     * math.comb()
+    * combinations(range, num_substrings_length) returns all possible combinations
     * chain.from_iterable(combinations())
     * the divisibility test that an integer is divisible by 9 iff the sum of its digits is divisible by 9 (digital root)
     
