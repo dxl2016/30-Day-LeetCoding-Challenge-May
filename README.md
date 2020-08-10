@@ -17,6 +17,7 @@
 ### tree (i.e. a connected, undirected graph that has no cycles)
 ### bitmask and hashmap (XOR) keywords: all char count even
 ### sort list of list, break a tie of sorting
+### pair/divisor res = [0]*number of remainders
 
 1. data structure: stack, queue, deque, tuple, dict, hash, set, heap
    * **lambda sort: list_of_list = sorted(list_of_list, key = lambda x: (-x[0], x[1]))**
