@@ -19,6 +19,7 @@
 ### sort list of list, break a tie of sorting
 ### pair/divisor res = [0]*number of remainders
 ### if [1,2,3] in list of list
+### while(modified in res)
 
 1. data structure: stack, queue, deque, tuple, dict, hash, set, heap
    * **lambda sort: list_of_list = sorted(list_of_list, key = lambda x: (-x[0], x[1]))**
