@@ -36,8 +36,10 @@
    * list.pop(index) vs list.remove(value)
    * sorted(temp.items(), reverse = True, key = lambda x: x[1])
    * **heap: heaps O(n log k)**
+   * heap: list[0]
    * heapq.heappush(list, item)
    * heapq.heappop(list)
+   * heappushpop(list, item)
    * heapq.nsmallest(K, points, lambda (x, y): func), faster than sort
    * {u:i for i, u in enumerate(vocab)}, vocab.items()
    * dict.get()+1 for not-existing pairs
