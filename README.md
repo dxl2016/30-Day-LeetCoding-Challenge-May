@@ -20,7 +20,7 @@
 ### sort list of list, break a tie of sorting
 ### pair/divisor res = [0]*number of remainders
 ### if [1,2,3] in list of list
-### while(modified in res)
+### while(modified in res); for + while
 ### DAG: in-degree, out-degree; in-flow, out-flow
 
 1. data structure: stack, queue, deque, tuple, dict, hash, set, heap
