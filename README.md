@@ -52,6 +52,7 @@
    * s = re.sub(r"[^A-Za-z0-9]", "", s)
    * divisors: idx ** 0.5
    * datetime.strptime(date, "%Y-%m-%d")
+   * bisect.bisect_left()
 2. collections.Counter(freq), dict, hash, heap, set 
    * Counter(nums).most_common(k)
    * collections.default(list)
