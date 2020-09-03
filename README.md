@@ -22,7 +22,7 @@
 ### if [1,2,3] in list of list
 ### while(modified in res); for + while
 ### DAG: in-degree, out-degree; in-flow, out-flow
-
+### mask = 0xFFFFFFFF
 1. data structure: stack, queue, deque, tuple, dict, hash, set, heap
    * **lambda sort: list_of_list = sorted(list_of_list, key = lambda x: (-x[0], x[1]))**
    * collections.deque([]), append(), pop(), appendleft(), popleft()
