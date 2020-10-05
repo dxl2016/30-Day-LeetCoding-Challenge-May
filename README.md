@@ -66,6 +66,7 @@
    * rule: sticking 1s from bottom to top, bit[j] vs bit[j-nth-power] has an additional leading 1
    * power of 2 rule: return n > 0 and bin(n).count('1') == 1
    * power of 2 rule: return n > 0 and n & (n-1) == 0
+   * i.e. 5 is "101" in binary, with complement "010" in binary, which is 2 in base-10.
 4. BTS/tree (connected graph)
    * index: left = 2*level+1; right = 2*level+2
    * a dummy root, return root.left
